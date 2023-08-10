@@ -1,0 +1,4 @@
+this server is using a cloudflare tunnel and a NGINX reverse proxy. The NGINX reverse proxy is set to run on 8080, the tunnel is configured on
+cloudflare to packettracker.org dashboard-> Zero Trust -> Access -> Tunnels
+Reverse Proxy Config -> sudo nano /etc/nginx/sites-available/reverse-proxy.conf
+Web Server config -> sudo nano /etc/nginx/sites-available/hello-world
